@@ -12,6 +12,14 @@ Python 3.12. garmin-fit-sdk decodes the files into SQLite (activities, 1 Hz reco
 
 No personal data is in this repository. FIT files live in data/, which is gitignored. Test fixtures are Garmin's public FIT SDK samples. Credentials for any API adapter come from environment variables only.
 
+## Running it
+
+```bash
+make setup
+make test
+make lint
+```
+
 ## Status
 
 Nothing runs yet. Design notes land in docs/DESIGN.md as each part is built. Every number that appears in this README will be pasted from `make report` output, not typed.
